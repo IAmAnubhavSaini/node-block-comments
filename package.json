@@ -1,16 +1,10 @@
 {
   "name": "node-block-comments",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Get block comments in provided file - node modules",
   "main": "index.js",
   "devDependencies": {
-    "@types/node": "^15.6.1",
-    "eslint": "^4.15.0",
-    "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "@types/node": "^15.6.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
