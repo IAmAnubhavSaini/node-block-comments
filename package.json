@@ -1,10 +1,10 @@
 {
   "name": "node-block-comments",
-  "version": "0.0.0",
-  "description": "Get block comments in provided file or directory - node modules",
+  "version": "1.0.0",
+  "description": "Get block comments in provided file - node modules",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
+    "@types/node": "^15.6.1",
     "eslint": "^4.15.0",
     "eslint-config-standard": "^11.0.0-beta.0",
     "eslint-plugin-import": "^2.8.0",
@@ -17,13 +17,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gitfaf/node-block-comments.git"
+    "url": "git+https://github.com/iamanubhavsaini/node-block-comments.git"
   },
-  "keywords": [],
+  "keywords": [
+    "Anubhav"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gitfaf/node-block-comments/issues"
+    "url": "https://github.com/iamanubhavsaini/node-block-comments/issues"
   },
-  "homepage": "https://github.com/gitfaf/node-block-comments#readme"
+  "homepage": "https://github.com/iamanubhavsaini/node-block-comments#readme",
+  "bin": {
+    "blockComments": "blockComments.bin.js"
+  }
 }
